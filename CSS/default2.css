@@ -1,0 +1,50 @@
+html {
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background: url('concert.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    width:100%;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000;
+
+}
+
+h1 {
+    color:GreenYellow;
+    text-align: center;
+    margin: 70px auto 20px auto; 
+    text-shadow: 4px 4px black;
+    font-size: 125px;
+    font-family: 'Bangers';
+    font-weight: 800;
+}
+
+p {
+    font-size: 20px;
+}
+audio {
+    display:none;
+}
+#songInfo {
+    font-size: 28px;
+    font-family: 'Aldrich', sans-serif;
+}
+#buttons {
+    text-align: center;
+}
+
+#buttons button {
+    width: 60px;
+    height: 40px;
+    background: silver;
+    color: red;
+    border-radius: 15px;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+
+}
